@@ -1,0 +1,80 @@
+
+# =====================
+# Go build output
+# =====================
+/bin/
+/dist/
+/build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# =====================
+# Go test / coverage
+# =====================
+*.test
+*.out
+coverage.*
+
+# =====================
+# Go modules
+# =====================
+vendor/
+
+# =====================
+# IDE
+# =====================
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# =====================
+# Logs
+# =====================
+*.log
+logs/
+
+# =====================
+# Env files
+# =====================
+.env
+.env.*
+!.env.example
+
+# =====================
+# GoAdmin / Admin assets
+# =====================
+uploads/
+public/uploads/
+runtime/
+tmp/
+
+# =====================
+# Database files (if any local sqlite)
+# =====================
+*.db
+*.sqlite3
+
+# =====================
+# Docker
+# =====================
+docker-compose.override.yml
+
+# =====================
+# OS
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Go workspace
+# =====================
+go.work
+go.work.sum
+
+/uploads/*
+/data/
