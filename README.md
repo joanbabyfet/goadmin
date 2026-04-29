@@ -92,16 +92,8 @@ go run main.go
 
 http://localhost:9033/admin/login
 
----
-
-## 🔐 默认登录方式
-
-⚠️ 本项目没有默认账号，需要手动初始化：
-
-``` sql
-INSERT INTO goadmin_users (id, username, password, name)
-VALUES (1, 'admin', 'admin', 'Administrator');
-```
+账号：admin
+密码：admin
 
 ---
 
